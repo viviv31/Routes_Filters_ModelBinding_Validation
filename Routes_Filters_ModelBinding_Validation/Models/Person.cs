@@ -13,16 +13,18 @@ namespace Routes_Filters_ModelBinding_Validation.Models
     public Role Role { get; set; }
   }
 
+  
   public class Address
-  {
-    public string Line1 { get; set; }
-    public string Line2 { get; set; }
-    public string City { get; set; }
-    public string PostalCode { get; set; }
-    public string Country { get; set; }
-  }
+    {
+     public string Line1 { get; set; }
+     public string Line2 { get; set; }
+     public string City { get; set; }
+     public string PostalCode { get; set; }
+     public string Country { get; set; }
+    }
 
-  public enum Role
+
+    public enum Role
   {
     Admin,
     User,
